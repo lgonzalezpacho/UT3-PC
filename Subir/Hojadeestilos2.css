@@ -1,0 +1,15 @@
+.contenedorflex {
+  min-height: 800px;
+  background-color: dodgerblue;
+  display: flex;
+  align-items: flex-start;
+}
+
+.contenedorflex > div {
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.8rem;
+  background-color: #f1f1f1;
+}
+
+/*# sourceMappingURL=Hojadeestilos2.css.map */

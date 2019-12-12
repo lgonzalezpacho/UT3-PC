@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Hojadeestilos2.css">
+    <title>Elementos hijos - Flex</title>
+</head>
+<body>
+    <h2>Propiedad order</h2>
+    <h3>determina el orden de los elementos
+         dentro de un contenedor flex</h3>
+    <div class="contenedorflex">
+        <div style="order:5;">
+            Elemento 1</div>
+        <div style="order:3;">
+            Elemento 2</div>
+        <div style="order:1;">
+            Elemento 3</div>
+        <div style="order:2;">
+            Elemento 4</div>
+        <div style="order:4;">
+            Elemento 5</div>
+    </div>
+<br><br><br><br>
+    <h2>Flex grow</h2>
+    <h3>especifica cuánto va a 
+        crecer un elemento flex 
+        con respecto al resto de 
+        elementos flex. 
+        Se identificará con un 
+        valor numérico</h3>
+    <div class="contenedorflex">
+        <div style="flex-grow:1;">
+            Elemento 1</div>
+        <div style="flex-grow:1;">
+            Elemento 2</div>
+        <div style="flex-grow:8;">
+            Elemento 3</div>
+    </div>
+    <h2>Flex-shrink</h2>
+    <h3>es una propiedad que 
+        determina cuánto puede 
+        encogerse un elemento flex 
+        respecto al resto. Esta 
+        propiedad se identificará 
+        con un valor numérico.</h3>
+    <div class="contenedorflex">
+        <div style="flex-grow:1;">1</div>
+        <div style="flex-grow:1;">2</div>
+        <div style="flex-shrink: 0">3</div>
+        <div style="flex-grow:1;">4</div>
+        <div style="flex-grow:1;">5</div>
+    </div>      
+</body>
+</html>

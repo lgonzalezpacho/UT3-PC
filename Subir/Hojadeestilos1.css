@@ -1,0 +1,65 @@
+.contenedorflexaligncontent > div, .contenedorflexcentradoperfecto > div, .contenedorflex > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.8rem;
+}
+
+.contenedorflex {
+  align-items: center;
+}
+.contenedorflexcentradoperfecto {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorflexaligncontent, .contenedorflex, .contenedorflexcentradoperfecto {
+  display: flex;
+  background-color: dodgerblue;
+  min-height: 500px;
+  flex-wrap: wrap;
+}
+
+.contenedorfcentrado, .contenedorf {
+  display: flex;
+  background-color: lightblue;
+  min-height: 700px;
+}
+
+.contenedorfcentrado > div, .contenedorf > div {
+  background-color: pink;
+  margin: 15px;
+  padding: 18px;
+  font-size: 2rem;
+}
+
+.contenedorf {
+  justify-content: center;
+}
+.contenedorfcentrado {
+  justify-content: center;
+  align-items: center;
+}
+.contenedorflexaligncontent {
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.contenedorflexbaseline {
+  margin-top: 40px;
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+  background-color: DodgerBlue;
+}
+
+.contenedorflexbaseline > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=Hojadeestilos1.css.map */
